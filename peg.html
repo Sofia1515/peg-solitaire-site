@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="utf-8"><title>Peg Solitaire - Prototipo</title></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peg Solitaire - Prototipo</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1a1a1a, #2c2c2c);
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #ffcc00;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #ffffff;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+      border-bottom: 2px solid #ffcc00;
+      padding-bottom: 5px;
+      width: 300px;
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px 0;
+      padding: 12px 25px;
+      background-color: #ffcc00;
+      color: #1a1a1a;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s;
+      box-shadow: 2px 2px 5px black;
+    }
+
+    a:hover {
+      background-color: #e6b800;
+      transform: scale(1.05);
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  </style>
+</head>
 <body>
   <h1>Peg Solitaire Gotham</h1>
 
-  <h2>Modo EDITOR</h2>
-  <a href="https://www.figma.com/design/a67SICOQKg9Ku1cJfj1dBT/TP1--Iterfaces?node-id=7-2&t=Blm4ZK0IuE119TeY-1" target="_blank">Link Modo EDITOR</a><br>
+  <div class="container">
+    <h2>Modo EDITOR</h2>
+    <a href="https://www.figma.com/design/a67SICOQKg9Ku1cJfj1dBT/TP1--Iterfaces?node-id=7-2&t=Blm4ZK0IuE119TeY-1" target="_blank">Abrir Modo EDITOR</a>
 
-  <h2>Modo PRESENTACIÓN</h2>
-  <a href="https://www.figma.com/proto/a67SICOQKg9Ku1cJfj1dBT/TP1--Iterfaces?node-id=241-216&t=Utj8Cbqc0u829ihG-1&scaling=min-zoom&content-scaling=fixed&page-id=7%3A2&starting-point-node-id=241%3A216" target="_blank">link Modo PRESENTACIÓN</a>
+    <h2>Modo PRESENTACIÓN</h2>
+    <a href="https://www.figma.com/proto/a67SICOQKg9Ku1cJfj1dBT/TP1--Iterfaces?node-id=241-216&t=Utj8Cbqc0u829ihG-1&scaling=min-zoom&content-scaling=fixed&page-id=7%3A2&starting-point-node-id=241%3A216" target="_blank">Abrir Modo PRESENTACIÓN</a>
+  </div>
 </body>
 </html>
+
